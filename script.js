@@ -16,7 +16,7 @@ const increment = () => {
 
 const save = () => {
   let prev_record = " " + count + " - "
-  document.getElementById("previous-el").innerText += prev_record;
+  document.getElementById("previous-el").textContent += prev_record;
   count = 0;
   document.getElementById("count-el").innerText = count;
 }
